@@ -1,0 +1,273 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+.header{
+	background-color: #121B2A;
+	padding: 17px 0;
+	box-shadow: 0 10px black;
+	
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid white;*/
+	float: left;
+	/*margin: 10px 0;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-top: 80px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:none;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding: 0 30px;
+	display: block;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #06649E;
+	/*transition: .5s;*/
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;/*cross browser support*/
+	background-size:cover;
+	background-position: center;
+}
+.banner_content{
+	width: 50%;
+	/*border: 1px solid white;*/
+	margin-top: 300px;
+	margin-bottom: 100px;
+
+}
+.banner_content h1{
+	font-family: sans-serif;
+	font-weight: 400; /*normal*/
+	font-size: 40px;
+	color: white;
+
+}
+.banner_content h2{
+	font-family: sans-serif;
+	/*font-weight: 400;*/ /*normal*/
+	font-size: 40px;
+	color: #006ABE;
+	margin: 0;
+}
+.banner_content p{
+	color: #BFC2C5;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+.banner_content button{
+	padding: 10px 30px;
+	font-weight: 700px;
+	font-size: 25px;
+	text-transform: uppercase;
+	border-radius: 5px;
+
+}
+/*banner end*/
+/*service section start*/
+.service{
+	background-color: #121B2C;
+	padding-top: 30px;
+}
+.single{
+	float: left;
+	width: 30%;
+	border-right:1px solid white;
+	/*padding-bottom: 60px;*/
+	padding: 0 20px 60px 20px;
+}
+.single:last-child{
+	border-right: none;
+}
+.top{
+	overflow: hidden;
+}
+.top_logo{
+	width: 20%;
+	float: left;
+	/*border: 1px solid white;*/
+}
+.top_logo img{
+	width: 100%;
+}
+.top_text{
+	width: 60%;
+	float: left;
+	/*border: 1px solid white;*/
+	margin-top: 13px;
+
+}
+.top_text h2{
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	margin:0;
+}
+.top_text h3{
+	color: #036AA6;
+	font-family: sans-serif;
+	font-size: 30px;
+	margin:0;
+}
+.bottom{
+	margin-top: 15px;
+}
+.bottom p{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	margin:0;
+	color: white;
+	line-height: 25px;
+}
+/*service section ends*/
+/*about section begins*/
+.about{
+	background-color: #040811;
+}
+.wrapper1{
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+}
+.left{
+	color: white;
+	width: 30%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.left h3{
+	font-family: sans-serif;
+}
+.c{
+	color: #014D7A;
+}
+.left p{
+	font-family: sans-serif;
+}
+.left h5{
+	font-family: sans-serif;
+}
+.middle{
+	width: 30%;
+	border: 1px solid white;
+}
+.rectangle{
+	width:80%;
+	background-color: #091218;
+	color: white;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+	box-shadow: 10px 10px black;
+	}        
+				
+.info{
+	width: 75%;
+	margin: 0 auto;
+	color: white;
+}
+.right{
+	width: 30%;
+	/*border: 1px solid white;*/
+	float: right;	
+}
+.l1{
+	float: left;
+
+}
+.r1{
+	float: left;
+	padding-left: 30px;
+}
+.t{
+	/*float: right*/;
+}
+.t h3{
+	color: white;
+}
+.b{}
+.b button{
+	padding: 10px ;
+	font-weight: 700px;
+	font-size: 25px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+/*about section ends*/
+/*footer begins*/
+.footer{
+	background-color: #121B2C;
+}
+.wrapper2{
+	overflow: hidden;
+	width: 65%;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+
+	/*padding-right: 30px;*/
+
+}
+.lmenu{
+	width: 55%;
+	/*border: 1px solid white;*/
+	color: white;
+	font-family: sans-serif;
+	float: left;
+}
+.lmenu ul{}
+.lmenu ul li{
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	padding: 0 15px;
+	border-right: 1px solid white;
+}
+.lmenu h4{
+    padding: 20px 65px;
+}
+.flogo{
+	width: 35%;
+	/*border: 1px solid white;*/
+	float: right;
+}
+.flogo img{
+	/*width: 100%;*/
+	margin-right: 30px;
+}
+/*footer ends*/
